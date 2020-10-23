@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            //UNDEFINED typeof = undefined
+            console.log(a) //da error porque no esta definida
+
+            console.log(b) //devuelve undefined porque esta definida pero depués de usarla (al ser de tipo "var")
+            var b = 'test'
+
+            console.log(c) //da error porque es un tipo let, los cuales no se pueden acceder antes de ser definidas
+            let c = 'test'
+            //NULL typeof = object
+            var d = null
+            console.log(c) //devuelve null, que es su valor, es un valor nulo
+
+            let e = null
+            console.log(e) //devuelve null, que es su valor, es un valor nulo
+        </script>
+    </body>
+</html>

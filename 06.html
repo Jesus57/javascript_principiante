@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+        /*
+        * STRINGS
+        */
+        // concatenar texto
+            console.log('Hello ' + 'World')
+        // template literals
+            const name = 'Cristina'
+            console.log(`Hello ${name} whatever`)
+        // typeof
+            console.log(typeof name)
+        // .length
+            console.log(name.length)
+        // .includes devuelve un buleano de si esta o no incluido
+            console.log(name.includes('Cr'))
+        // .slice(start, end) (comienza a contar en 0)
+            console.log(name.slice(2, 3))
+        // .replace('este texto', 'por este otro')
+            console.log(name.replace('na','asdfas'))
+        // .trim() quita los espacios de sobra antes y depues
+            const text = '          as asfdas           afaf           '
+            console.log(text.trim())
+        // .split(',')
+            const GEOLOCATION = 'Calle whatever, 7, 1D'
+            console.log(GEOLOCATION.split(','))
+        </script>
+    </body>
+</html>

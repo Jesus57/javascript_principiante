@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+        // typeof
+        let num = 20
+        console.log(typeof num)
+        // NaN (Not a Number)
+        const NOT_NUMBER = 2 + 'asfda'
+        console.log (typeof NOT_NUMBER)
+        // isNaN() comprueba si NO es un número
+        console.log(isNaN(NOT_NUMBER))      // true
+        console.log(isNaN(NaN))             // true
+        console.log(isNaN('whatever'))      // true
+        console.log(isNaN('12'))            // false
+        console.log(isNaN(12))              // false
+        // toString()
+        let number = 100
+        console.log(typeof number)
+        console.log(typeof number.toString())
+        // .toFixed() redondea o pone los decimales que indiquemos
+        console.log(number.toFixed(2))
+        </script>
+    </body>
+</html>

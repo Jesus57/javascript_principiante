@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+        //variables globales funcionan en todo el programa
+        const whatever = "whatever";
+        console.log('whatever')
+       
+        //variables locales solo funcionan dentro de las instancias declaradas
+        if (true)
+        {
+            const helloworld = 'hello world'
+            console.log(helloworld)
+        }
+        function sayHello () {
+            const helloworld = 'hello worldo'
+            console.log(helloworld)
+        }
+        //var
+            var whatever = 'whatever'; 
+                //Si lo defines despues de ser utilizada, no da error
+        //let
+            let text = 'Hello World!';
+                //Si lo defines antes de ser utilizada, da error
+        //const
+            const name = 'Cristina';
+                //esta variable no cambia su valor, ni deja vaya
+                //Estandar: EN_MAYÚSCULAS_SEPARADO_POR_BARRAS_BAJAS
+        </script>
+    </body>
+</html>
