@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Javascript</title>
+    </head>
+    <body>
+        <script type="text/javascript">
+            //funciones anonimas
+
+            var sayHello = function (name = 'world') {
+                return 'Hello' + name
+            }
+
+            console.log(sayHello())
+            console.log(sayHello('Cristina'))
+
+            ///////////////////////////////////////////////////////
+
+            const MESSAGE = 'Text example'
+            var Saluda = (name) => 'Hello' + name
+
+            console.log(Saluda('Jeuss'))
+
+            var sayBye = (name) => {return 'Bye ' + name}
+            console.log(sayBye('Jeuss'))    
+        </script>
+    </body>
+</html>
